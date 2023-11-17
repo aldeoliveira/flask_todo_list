@@ -16,15 +16,11 @@ Um To Do List feito com Flask baseado no tutorial de https://www.geeksforgeeks.o
 
 ```pip install -r requirements.txt```
 
-3. Crie o BD:
+3. Faça as migrações:
 
-```flask db init```
+```flask db upgrade```
 
-4. Faça as migrações:
-
-```flask db migrate -m "initial migration"```
-
-5. Run!
+4. Run!
 
 ```python run.py```
 
